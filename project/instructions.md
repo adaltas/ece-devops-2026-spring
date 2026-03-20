@@ -136,13 +136,16 @@ List of bonus tasks proposed:
 
 | Subject                                                         |   Code    | Max. grade|
 |:----------------------------------------------------------------|:---------:|:---------:|
-| Application displaying simple content                           |   APP     |    +2     |
-| Enriched web application with automated tests                   |   APP     |    +4     |
-| Continuous Integration and Continuous Delivery (and Deployment) |   CICD    |    +3/3   |
-| Infrastructure as code using Ansible                            |   IAC     |    +5     |
+| Application displaying simple content                           |   APP     |    +1     |
+| Enriched web application with automated tests                   |   APP     |    +2     |
+| Continuous Integration and Continuous Delivery (and Deployment) |   CICD    |   +2/+1   |
+| Infrastructure as code using Ansible                            |   IAC     |    +3     |
+| Containerisation with Docker   	                                |    D     |    +1     |
+| Orchestration with Docker Compose                               |   DC     |    +1     |
 | Deployment with Kubernetes   	                                  |   KUB     |    +3     |
-| Each bonus task                                                 |   BNS     |    +0,5   |
-| Each penalty                                                    |   PNL     |    -2     |
+| Accurate project documentation in README.md file   	            |   DOC     |    +5     |
+| Each bonus task                                                 |   BNS     |   +0.5    |
+| Each penalty                                                    |   PNL     |    -1     |
 
 It is also taken into account:
 
