@@ -2,7 +2,8 @@
 
 ## Deadline
 
-April 19, 2026
+19 th of April 2026 for group 1
+25 th of April 2026 for group 2
 
 ## Opportunities
 
