@@ -2,7 +2,7 @@
 
 ## Deadline
 
-23 th of December 2025
+April 19, 2026
 
 ## Opportunities
 
