@@ -54,7 +54,7 @@ kubectl get pods
 Enter to the container:
 
 ```
-kubectl exec -it <POD_NAME> bash
+kubectl exec -it <POD_NAME> -- bash
 ```
 
 Run `curl localhost` (or `curl localhost/index.html`, because by default of Nginx will point to `index.html` if you do not specify the filename)
