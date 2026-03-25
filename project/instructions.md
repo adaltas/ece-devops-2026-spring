@@ -1,10 +1,15 @@
 # Project
 
+**ATTENTION!** Make sure your repository is **PRIVATE** and **you have sent an invitation** to teacher's GitHub account.
+
+|   TEACHERS github account / GROUPES   |   Gr1   |   Gr2   |   Gr3   |
+|:-------------------------------------:|:-------:|:-------:|:-------:|
+|               octavepre               |    X    |         |    X    |
+|            alexismarie8314            |         |    X    |         |
+
 ## Deadline
 
-19 th of April 2026 for group 1
-
-25 th of April 2026 for group 2
+25 th of April 2026
 
 ## Opportunities
 
