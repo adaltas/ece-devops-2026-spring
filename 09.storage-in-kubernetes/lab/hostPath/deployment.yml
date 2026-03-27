@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx-host-path
 spec:
-  replicas: 1
+  replicas: 4
   selector:
     matchLabels:
       app: nginx-host-path
@@ -16,6 +16,12 @@ spec:
     spec:
       volumes:
         # TODO complete
+        - name: host-html
+          hostPath:
+            # Path on the host
+            path: /mnt/hostPath
+            # 'DirectoryOrCreate' create dir if not exists
+            type: DirectoryOrCreate
       containers:
       - name: nginx-container
         image: nginx
@@ -24,3 +30,5 @@ spec:
             name: "http-server"
         volumeMounts:
           # TODO complete
+          - name: host-html
+            mountPath: /usr/share/nginx/html/volume

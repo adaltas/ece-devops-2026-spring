@@ -1,23 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-empty-dir
+  name: nginx-pvc-deployment
   labels:
-    app: nginx-empty-dir
+    app: nginx-pvc
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nginx-empty-dir
+      app: nginx-pvc
   template:
     metadata:
       labels:
-        app: nginx-empty-dir
+        app: nginx-pvc
     spec:
       volumes:
-        # TODO complete
-        - name: cache-volume
-          emptyDir: {}
+        - name: storage-volume
+          persistentVolumeClaim:
+            claimName: the-nginx-pvc # need to match with the PVC name
       containers:
       - name: nginx-container
         image: nginx
@@ -25,6 +25,5 @@ spec:
           - containerPort: 80
             name: "http-server"
         volumeMounts:
-          # TODO complete
-          - name: cache-volume
+          - name: storage-volume
             mountPath: /usr/share/nginx/html/volume
