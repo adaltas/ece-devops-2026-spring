@@ -11,6 +11,10 @@
 
 25 th of April 2026
 
+Any changes made after the deadline will affect your project's submission date. This means that if your project was updated on April 30, that will be its submission date.
+
+Each calendar day of delay results in a 1-point penalty. This means that if you submit the project at midnight on April 26, you will receive a 1-point penalty. And then another point for each day of delay.
+
 ## Opportunities
 
 1. The DevOps project is based on all of the labs passed during the course, it is allowed to use them.
