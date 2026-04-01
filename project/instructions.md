@@ -7,6 +7,8 @@
 |               octavepre               |    X    |         |    X    |
 |            alexismarie8314            |         |    X    |         |
 
+For groups **Gr01** and **Gr03**, please make sure to update the Google Sheet by including the link to your GitHub repository and the composition of the project teams
+
 ## Deadline
 
 25 th of April 2026
